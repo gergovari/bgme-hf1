@@ -1,34 +1,7 @@
 \babel@toc {magyar}{}\relax 
-\contentsline {section}{\numberline {1}Reakció komponensek}{1}{}%
-\contentsline {subsection}{\numberline {1.1}Egyensúlyi képletek}{2}{}%
-\contentsline {section}{\numberline {2}Csuklók és rudak}{3}{}%
-\contentsline {subsection}{\numberline {2.1}1-es rúd}{3}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}Egyensúlyi képletek}{3}{}%
-\contentsline {subsection}{\numberline {2.2}2-es rúd}{4}{}%
-\contentsline {subsubsection}{\numberline {2.2.1}Egyensúlyi képletek}{4}{}%
-\contentsline {subsection}{\numberline {2.3}3-as rúd}{5}{}%
-\contentsline {subsubsection}{\numberline {2.3.1}Egyensúlyi képletek}{5}{}%
-\contentsline {subsection}{\numberline {2.4}B pont}{6}{}%
-\contentsline {subsubsection}{\numberline {2.4.1}Egyensúlyi képletek}{6}{}%
-\contentsline {subsection}{\numberline {2.5}Összegzés}{6}{}%
-\contentsline {section}{\numberline {3}1-es rúd igénybevételei}{7}{}%
-\contentsline {subsection}{\numberline {3.1}Függvények}{7}{}%
-\contentsline {subsection}{\numberline {3.2}Ábrázolás}{8}{}%
-\contentsline {section}{\numberline {4}Méretezés}{9}{}%
-\contentsline {subsection}{\numberline {4.1}Veszélyes keresztmetszet}{9}{}%
-\contentsline {subsection}{\numberline {4.2}Keresztmetszeti tényező}{9}{}%
-\contentsline {section}{\numberline {5}Helyettesítés U-szelvénnyel}{9}{}%
-\contentsline {section}{\numberline {6}U-szelvény ellenőrzése normálerő hatására}{9}{}%
-\contentsline {subsection}{\numberline {6.1}Ellenőrzés}{9}{}%
-\contentsline {subsection}{\numberline {6.2}Normálerő ábrázolása}{10}{}%
-\contentsline {section}{\numberline {7}Nyírásból adódó csúsztató feszültség}{11}{}%
-\contentsline {subsection}{\numberline {7.1}Függvény}{11}{}%
-\contentsline {subsubsection}{\numberline {7.1.1}Kettébontás}{11}{}%
-\contentsline {subsection}{\numberline {7.2}Ábrázolás}{12}{}%
-\contentsline {section}{\numberline {8}2-es rúd igénybevételei}{13}{}%
-\contentsline {subsection}{\numberline {8.1}Függvények}{13}{}%
-\contentsline {subsection}{\numberline {8.2}Normálfeszültség ábrázolása}{14}{}%
-\contentsline {subsection}{\numberline {8.3}Maximális normálfeszültség}{14}{}%
-\contentsline {section}{\numberline {9}3-as rúd hajlítása}{15}{}%
-\contentsline {subsection}{\numberline {9.1}Zérus és $y_3$ tengely szöge}{15}{}%
-\contentsline {subsection}{\numberline {9.2}Maximális normálfeszültség}{15}{}%
+\contentsline {section}{\numberline {1}Konstrukció előterve}{1}{}%
+\contentsline {section}{\numberline {2}Vakkarima vastagsága és szabványai}{2}{}%
+\contentsline {section}{\numberline {3}Tömítés kiválasztása}{3}{}%
+\contentsline {section}{\numberline {4}Csavarra jutó terhelés}{4}{}%
+\contentsline {section}{\numberline {5}Csavar előfeszítése és meghúzási nyomatéka}{5}{}%
+\contentsline {section}{\numberline {6}Összeállítási rajz}{}{}
