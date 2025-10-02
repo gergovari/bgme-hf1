@@ -3,8 +3,8 @@
 \subsection{Csavar szabvány}
 \begin{align*}
 	& p = \siunit{\csavarp}{\mm} \\
-	& d_3 = \siunit{\csavardthree}{\mm} \\
-	& d_2 = \siunit{\csavardtwo}{\mm} \\
+	& {d_3}_\text{cs} = \siunit{\csavardthree}{\mm} \\
+	& {d_2}_\text{cs} = \siunit{\csavardtwo}{\mm} \\
 	& d_w = \siunit{\csavardw}{\mm} \\
 	& b = \siunit{\csavarb}{\mm} \\
 	& l = \siunit{\csavarl}{\mm} \\
@@ -12,16 +12,27 @@
 \end{align*}
 
 \begin{equation*}
-	\mu^{'}_{\substack{\text{min}\\\text{max}}}
+	\mu_{\substack{\text{min}\\\text{max}}}
 	= \substack{
 		\siunit{\csavarumin}{-} \\
 		\siunit{\csavarumax}{-} \\
 	}
 \end{equation*}
 
-\subsection{Meghúzási nyomaték}
+\begin{center}
+	\begin{tabular}{l}
+		$p$: menet emelkedés \siunit{}{\mm} \\
+		${d_3}_\text{cs}$: orsó magátmérő \siunit{}{\mm} \\
+		${d_2}_\text{cs}$: csavar középátmérő \siunit{}{\mm} \\
+		$\beta$: menetprofil szöge \siunit{}{\degree} \\
+		$\mu_{\substack{\text{min}\\\text{max}}}$: súrlódási tényező \siunit{}{-} \\
+	\end{tabular}
+\end{center}
 
+\newpage
+\subsection{Meghúzási nyomaték}
 \begin{align}
+	&\alpha = \arctan{\frac{p}{{d_2}_\text{cs} \pi}} = \siunit{\csavaralpha}{\degree} \\
 	&\mu^{'}_{\substack{\text{min}\\\text{max}}}
 	= \frac
 		{\mu_{\substack{\text{min}\\\text{max}}}}
@@ -31,7 +42,8 @@
 	= \substack{
 		\siunit{\csavarptmin}{\degree} \\
 		\siunit{\csavarptmax}{\degree}
-	}
+	} \\
+	&d_a = \frac{d_w + M}{2} = \siunit{\csavarda}{\mm}
 \end{align}
 
 \begin{align}
@@ -56,3 +68,19 @@
 		\siunit{\csavarmegmax}{\newton\mm}
 	}\\
 \end{equation}
+
+\begin{center}
+	\begin{tabular}{l}
+		$\alpha$: menetemelkedés szöge \siunit{}{\degree} \\
+		$\mu_{\substack{\text{min}\\\text{max}}}$: súrlódási tényező \siunit{}{-} \\
+		$\beta$: menetprofil szöge \siunit{}{\degree} \\
+		$d_a$: anya felvekvő felület középátmérő \siunit{}{\mm} \\
+		$M$: csavar \siunit{}{\mm} \\
+		${d_2}_\text{cs}$: menet középátmérő \siunit{}{\mm} \\
+		${M_\text{csavar}}_{\substack{\text{min}\\\text{max}}}$: menet súrlódása \siunit{}{\newton\mm} \\
+		$F_v$: csavar terhelése \siunit{}{\newton} \\
+		$\rho^{'}_{\substack{\text{min}\\\text{max}}}$: látszólagos súrlódási félkúpszög \siunit{}{\degree} \\
+		${M_\text{anya}}_{\substack{\text{min}\\\text{max}}}$: csavaranya felülete alatti súrlódás \siunit{}{\newton\mm} \\
+		${M_\text{meghúzási}}_{\substack{\text{min}\\\text{max}}}$: meghúzási nyomaték \siunit{}{\newton\mm} \\
+	\end{tabular}
+\end{center}
