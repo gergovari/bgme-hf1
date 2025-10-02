@@ -29,6 +29,19 @@
 	= \n{\csavarszerel}
 \end{align}
 
+\begin{center}
+	\begin{tabular}{l}
+		$z$: fogak száma \siunit{}{db} \\
+		$b_t^*$: tömítés hatásos szélessége \siunit{}{\mm} \\
+		$F_\text{cső}$: belső nyomásból származó csőerő \siunit{}{\newton} \\
+		$F_\text{p}$: belső nyomásból származó gyűrűfelületi erő \siunit{}{\newton} \\
+		$F_\text{töm}$: minimális tömítő erő \siunit{}{\newton} \\
+		$F_\text{csavar üzemi}$: csavarokra ható üzemi erő \siunit{}{\newton} \\
+		${n_\text{bizt}}_t$: csavarokra ható szerelési erőhöz választott biztonsági tényező \siunit{}{-} \\
+		$F_\text{csavar szerelési}$: csavaroknál alkalmazott szerelési erő \siunit{}{\newton} \\
+	\end{tabular}
+\end{center}
+
 \newpage
 \subsection{Szabvány -és anyagválasztás}
 % TODO
@@ -41,11 +54,20 @@
 	\caption{Tömítés előtervének rajza}
 \end{figure}
 \begin{align*}
-	&d_1 = \siunit{\tomdone}{\mm} \\
-	&d_2 = \siunit{\tomdtwo}{\mm} \\
-	&d_3 = \siunit{\tomdthree}{\mm} \\
+	&{d_1}_t = \siunit{\tomdone}{\mm} \\
+	&{d_2}_t = \siunit{\tomdtwo}{\mm} \\
+	&{d_3}_t = \siunit{\tomdthree}{\mm} \\
 	&b_t = \siunit{\tombt}{\mm} \\
 	&b_m = \siunit{\tombm}{\mm} \\
-	&h_{\text{max}} = \siunit{\tomhmax}{\mm} \\
-	&h_{\text{min}} = \siunit{\tomhmin}{\mm}
+	&h_{\substack{\text{min}\\\text{max}}} = \substack{\siunit{\tomhmin}{\mm}\\\siunit{\tomhmax}{\mm}} \\
 \end{align*}
+\begin{center}
+	\begin{tabular}{l}
+		${d_1}_t$: tőmítés belső átmérő \siunit{}{\mm} \\
+		${d_2}_t$: tőmítés felfekvő felület külső átmérő \siunit{}{\mm} \\
+		${d_3}_t$: távtartó gyűrű külső átmérő \siunit{}{\mm} \\
+		$b_t$: távtartó gyűrű vastagság \siunit{}{\mm} \\
+		$b_m$: fém mag magasság \siunit{}{\mm} \\
+		$h_{\substack{\text{min}\\\text{max}}}$: szerelés utáni/előtti távolsága \\PTFE lemezeknek a vasmag tetejétől \siunit{}{\mm} \\
+	\end{tabular}
+\end{center}
