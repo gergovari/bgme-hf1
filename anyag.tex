@@ -1,0 +1,25 @@
+\section{Csavar anyagválasztás}
+
+\subsection{Redukált feszültség}
+
+\begin{align}
+	&A_e = \frac{\left({\frac{{d_2}_\text{cs} + {d_3}_\text{cs}}{2}}\right)^2 \pi}{4} = \siunit{\csavarae}{\mm^2} \\
+	&\sigma = \frac{F_v}{A_e} = \siunit{\csavarsigma}{\mega\pascal}
+\end{align}
+
+\begin{align}
+	&K_p = \frac{\left(\frac{{d_2}_\text{cs} + {d_3}_\text{cs}}{2}\right)^3 \pi}{16} = \siunit{\csavarkp}{\mm^3} \\
+	&M_\text{csavar} = {M_\text{anya}}_\text{max} \\
+	&\tau = \frac{M_\text{csavar}}{K_p} = \mpa{\csavartau}
+\end{align}
+
+\begin{equation}
+	\sigma_\text{red} = \sqrt{\sigma^2 + 3\tau^2} = \mpa{\csavarred}
+\end{equation}
+
+\subsection{Méretezés}
+
+\begin{align}
+	&R_\text{eh} = \mpa{\csavarreh} \\
+	&{n_\text{bizt}}_\text{cs} = \frac{R_\text{eh}}{\sigma_\text{red}} = \siunit{\csavarntwo}{-}
+\end{align}

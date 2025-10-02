@@ -9,5 +9,10 @@
 \contentsline {subsection}{\numberline {3.2}Szabvány -és anyagválasztás}{7}{}%
 \contentsline {subsection}{\numberline {3.3}Előterv}{8}{}%
 \contentsline {section}{\numberline {4}Csavarra jutó terhelés}{9}{}%
-\contentsline {section}{\numberline {5}Csavar előfeszítése és meghúzási nyomatéka}{10}{}%
-\contentsline {section}{\numberline {6}Összeállítási rajz}{}{}
+\contentsline {section}{\numberline {5}Csavar előfeszítése és meghúzási nyomatéka}{9}{}%
+\contentsline {subsection}{\numberline {5.1}Csavar szabvány}{9}{}%
+\contentsline {subsection}{\numberline {5.2}Meghúzási nyomaték}{9}{}%
+\contentsline {section}{\numberline {6}Csavar anyagválasztás}{10}{}%
+\contentsline {subsection}{\numberline {6.1}Redukált feszültség}{10}{}%
+\contentsline {subsection}{\numberline {6.2}Méretezés}{10}{}%
+\contentsline {section}{\numberline {7}Összeállítási rajz}{}{}
