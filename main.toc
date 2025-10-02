@@ -2,17 +2,17 @@
 \contentsline {section}{\numberline {1}Konstrukció előterve}{1}{}%
 \contentsline {section}{\numberline {2}Vakkarima vastagsága és karima szabványok}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Szabvány -és anyagválasztás}{2}{}%
-\contentsline {subsection}{\numberline {2.2}Előtervek}{3}{}%
-\contentsline {subsection}{\numberline {2.3}Minimális vastagság}{5}{}%
-\contentsline {section}{\numberline {3}Tömítés kiválasztása}{6}{}%
-\contentsline {subsection}{\numberline {3.1}Minimális tömítőerő}{6}{}%
-\contentsline {subsection}{\numberline {3.2}Szabvány -és anyagválasztás}{7}{}%
-\contentsline {subsection}{\numberline {3.3}Előterv}{8}{}%
-\contentsline {section}{\numberline {4}Csavarra jutó terhelés}{9}{}%
-\contentsline {section}{\numberline {5}Csavar előfeszítése és meghúzási nyomatéka}{9}{}%
-\contentsline {subsection}{\numberline {5.1}Csavar szabvány}{9}{}%
-\contentsline {subsection}{\numberline {5.2}Meghúzási nyomaték}{10}{}%
-\contentsline {section}{\numberline {6}Csavar anyagválasztás}{11}{}%
-\contentsline {subsection}{\numberline {6.1}Redukált feszültség}{11}{}%
-\contentsline {subsection}{\numberline {6.2}Méretezés}{11}{}%
+\contentsline {subsection}{\numberline {2.2}Előtervek}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Minimális vastagság}{4}{}%
+\contentsline {section}{\numberline {3}Tömítés kiválasztása}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Minimális tömítőerő}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Szabvány -és anyagválasztás}{6}{}%
+\contentsline {subsection}{\numberline {3.3}Előterv}{6}{}%
+\contentsline {section}{\numberline {4}Csavarra jutó terhelés}{7}{}%
+\contentsline {section}{\numberline {5}Csavar előfeszítése és meghúzási nyomatéka}{7}{}%
+\contentsline {subsection}{\numberline {5.1}Csavar szabvány}{7}{}%
+\contentsline {subsection}{\numberline {5.2}Meghúzási nyomaték}{8}{}%
+\contentsline {section}{\numberline {6}Csavar anyagválasztás}{9}{}%
+\contentsline {subsection}{\numberline {6.1}Redukált feszültség}{9}{}%
+\contentsline {subsection}{\numberline {6.2}Méretezés}{9}{}%
 \contentsline {section}{\numberline {7}Összeállítási rajz}{}{}
