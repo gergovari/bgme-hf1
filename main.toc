@@ -2,7 +2,9 @@
 \contentsline {section}{\numberline {1}Konstrukció előterve}{1}{}%
 \contentsline {section}{\numberline {2}Vakkarima vastagsága és karima szabványok}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Minimális vastagság}{2}{}%
-\contentsline {section}{\numberline {3}Tömítés kiválasztása}{5}{}%
-\contentsline {section}{\numberline {4}Csavarra jutó terhelés}{6}{}%
-\contentsline {section}{\numberline {5}Csavar előfeszítése és meghúzási nyomatéka}{7}{}%
+\contentsline {subsection}{\numberline {2.2}Szabvány -és anyagválasztás}{3}{}%
+\contentsline {subsection}{\numberline {2.3}Előtervek}{4}{}%
+\contentsline {section}{\numberline {3}Tömítés kiválasztása}{6}{}%
+\contentsline {section}{\numberline {4}Csavarra jutó terhelés}{7}{}%
+\contentsline {section}{\numberline {5}Csavar előfeszítése és meghúzási nyomatéka}{8}{}%
 \contentsline {section}{\numberline {6}Összeállítási rajz}{}{}
