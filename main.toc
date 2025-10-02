@@ -5,6 +5,9 @@
 \contentsline {subsection}{\numberline {2.2}Szabvány -és anyagválasztás}{3}{}%
 \contentsline {subsection}{\numberline {2.3}Előtervek}{4}{}%
 \contentsline {section}{\numberline {3}Tömítés kiválasztása}{6}{}%
-\contentsline {section}{\numberline {4}Csavarra jutó terhelés}{7}{}%
-\contentsline {section}{\numberline {5}Csavar előfeszítése és meghúzási nyomatéka}{8}{}%
+\contentsline {subsection}{\numberline {3.1}Minimális tömítőerő}{6}{}%
+\contentsline {subsection}{\numberline {3.2}Szabvány -és anyagválasztás}{7}{}%
+\contentsline {subsection}{\numberline {3.3}Előterv}{8}{}%
+\contentsline {section}{\numberline {4}Csavarra jutó terhelés}{9}{}%
+\contentsline {section}{\numberline {5}Csavar előfeszítése és meghúzási nyomatéka}{10}{}%
 \contentsline {section}{\numberline {6}Összeállítási rajz}{}{}
