@@ -11,13 +11,14 @@
 	& \beta = \siunit{\csavarbeta}{\degree}
 \end{align*}
 
-\begin{equation*}
-	\mu_{\substack{\text{min}\\\text{max}}}
+\begin{align}
+	&\mu_{\substack{\text{min}\\\text{max}}}
 	= \substack{
 		\siunit{\csavarumin}{-} \\
 		\siunit{\csavarumax}{-} \\
-	}
-\end{equation*}
+	} \\
+	&\mu = \frac{\mu_\text{min} + \mu_\text{max}}{2} = \siunit{\csavaru}{-}
+\end{align}
 
 \begin{center}
 	\begin{tabular}{l}
@@ -25,7 +26,7 @@
 		${d_3}_\text{cs}$: orsó magátmérője \siunit{}{\mm} \\
 		${d_2}_\text{cs}$: csavar középátmérője \siunit{}{\mm} \\
 		$\beta$: menetprofil szöge \siunit{}{\degree} \\
-		$\mu_{\substack{\text{min}\\\text{max}}}$: súrlódási tényező\footnote{MSZ EN 24014 szabvány alapján kapott értékek.} \siunit{}{-} \\
+		$\mu_{\substack{\text{min}\\\text{max}}}/\mu$: súrlódási tényező\footnote{MSZ EN 24014 szabvány alapján kapott értékek.}\textsuperscript{,}\footnote{A súrlódási tényező átlagolható elég nagy biztonsági tényező mellett.} \siunit{}{-} \\
 	\end{tabular}
 \end{center}
 
@@ -36,54 +37,40 @@ $\alpha$ menetemelkedési szög számítható eddigi adatainkból. A látszólag
 
 \begin{align}
 	&\alpha = \arctan{\frac{p}{{d_2}_\text{cs} \pi}} = \siunit{\csavaralpha}{\degree} \\
-	&\mu^{'}_{\substack{\text{min}\\\text{max}}}
-	= \frac
-		{\mu_{\substack{\text{min}\\\text{max}}}}
-		{\cos{\frac{\beta}{2}}} \\
-	&\rho^{'}_{\substack{\text{min}\\\text{max}}} 
-	= \arctan{\mu^{'}_{\substack{\text{min}\\\text{max}}}}
-	= \substack{
-		\siunit{\csavarptmin}{\degree} \\
-		\siunit{\csavarptmax}{\degree}
-	} \\
+	&\mu^{'}
+	= \frac{\mu}{\cos{\frac{\beta}{2}}} \\
+	&\rho^{'} 
+	= \arctan{\mu^{'}}
+	= \siunit{\csavarpt}{\degree} \\
 	&d_a = \frac{d_w + M}{2} = \siunit{\csavarda}{\mm}
 \end{align}
 
 \begin{align}
-	&{M_\text{csavar}}_{\substack{\text{min}\\\text{max}}} 
-	= F_v \frac{{d_2}_\text{cs}}{2} \tan{\left(\alpha + {\rho^{'}}_{\substack{\text{min}\\\text{max}}}\right)} 
-	= \substack{
-		\siunit{\csavarMcsmin}{\newton\mm} \\
-		\siunit{\csavarMcsmax}{\newton\mm}
-	}\\
-	&{M_\text{anya}}_{\substack{\text{min}\\\text{max}}} 
-	= F_v \frac{d_a}{2} {\mu^{'}_{\substack{\text{min}\\\text{max}}}}  
-	= \substack{
-		\siunit{\csavarMamin}{\newton\mm} \\
-		\siunit{\csavarMamax}{\newton\mm}
-	}\\
+	&{M_\text{csavar}} 
+	= F_v \frac{{d_2}_\text{cs}}{2} \tan{\left(\alpha + {\rho^{'}}\right)} 
+	= \siunit{\csavarMcs}{\newton\mm} \\
+	&{M_\text{anya}} 
+	= F_v \frac{d_a}{2} {\mu^{'}}  
+	= \siunit{\csavarMa}{\newton\mm} \\
 \end{align}
 
 \begin{equation}
-	{M_\text{meghúzási}}_{\substack{\text{min}\\\text{max}}} = {M_\text{csavar}}_{\substack{\text{min}\\\text{max}}} + {M_\text{anya}}_{\substack{\text{min}\\\text{max}}}
-	= \substack{
-		\siunit{\csavarmegmin}{\newton\mm} \\
-		\siunit{\csavarmegmax}{\newton\mm}
-	}\\
+	{M_\text{meghúzási}} = {M_\text{csavar}} + {M_\text{anya}} =
+		\siunit{\csavarmeg}{\newton\mm} \\
 \end{equation}
 
 \begin{center}
 	\begin{tabular}{l}
 		$\alpha$: menetemelkedés szöge \siunit{}{\degree} \\
-		$\mu_{\substack{\text{min}\\\text{max}}}$: súrlódási tényező \siunit{}{-} \\
+		$\mu_{\substack{\text{min}\\\text{max}}} / \mu$: súrlódási tényező \siunit{}{-} \\
 		$\beta$: menetprofil szöge \siunit{}{\degree} \\
 		$d_a$: anya felvekvő felület középátmérője \siunit{}{\mm} \\
 		$M$: csavar szabványos mérete \siunit{}{\mm} \\
 		${d_2}_\text{cs}$: menet középátmérője \siunit{}{\mm} \\
-		${M_\text{csavar}}_{\substack{\text{min}\\\text{max}}}$: menet súrlódása \siunit{}{\newton\mm} \\
+		${M_\text{csavar}}$: menet súrlódása \siunit{}{\newton\mm} \\
 		$F_v$: csavar terhelése \siunit{}{\newton} \\
-		$\rho^{'}_{\substack{\text{min}\\\text{max}}}$: látszólagos súrlódási félkúpszög \siunit{}{\degree} \\
-		${M_\text{anya}}_{\substack{\text{min}\\\text{max}}}$: csavaranya felülete alatti súrlódás \siunit{}{\newton\mm} \\
-		${M_\text{meghúzási}}_{\substack{\text{min}\\\text{max}}}$: meghúzási nyomaték \siunit{}{\newton\mm} \\
+		$\rho^{'}$: látszólagos súrlódási félkúpszög \siunit{}{\degree} \\
+		${M_\text{anya}}$: csavaranya felülete alatti súrlódás \siunit{}{\newton\mm} \\
+		${M_\text{meghúzási}}$: meghúzási nyomaték \siunit{}{\newton\mm} \\
 	\end{tabular}
 \end{center}
