@@ -1,9 +1,9 @@
 \babel@toc {magyar}{}\relax 
 \contentsline {section}{\numberline {1}Konstrukció előterve}{1}{}%
 \contentsline {section}{\numberline {2}Vakkarima vastagsága és karima szabványok}{2}{}%
-\contentsline {subsection}{\numberline {2.1}Szabvány -és anyagválasztás}{2}{}%
-\contentsline {subsection}{\numberline {2.2}Előtervek}{2}{}%
-\contentsline {subsection}{\numberline {2.3}Minimális vastagság}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Igénybevétel}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Szabvány -és anyagválasztás}{3}{}%
+\contentsline {subsection}{\numberline {2.3}Előtervek}{3}{}%
 \contentsline {section}{\numberline {3}Tömítés kiválasztása}{5}{}%
 \contentsline {subsection}{\numberline {3.1}Minimális tömítőerő}{5}{}%
 \contentsline {subsection}{\numberline {3.2}Szabvány -és anyagválasztás}{6}{}%
