@@ -2,12 +2,12 @@
 
 \subsection[Igénybevétel]{Igénybevétel\protect\footnote{A feladathoz mellékelt segédletből származó számítások. (5. oldal)}}
 
-A terhelés egy $d_t$ átmérőjű körön átadódó egyenletesen eloszlódó és feltehető hogy a törés egy egyenletes vonal mentén lesz: a kiszámolt $\sigma$ alapján lehet majd anyagot választani. 
+Az igénybevétel egy $d_t$ átmérőjű körön átadódó egyenletesen eloszló terhelés és feltehető hogy a törés egy egyenes vonal mentén lesz: a kiszámolt $\sigma$ alapján lehet majd anyagot választani. 
 
 A vakkarimára ható erő a súlypontba lett felvéve ($y_k, y_d$).
 
 \begin{equation}
-	d_t = \frac{(d_1 - 2s) + d_4}{2} = \siunit{\karimaDt}{\mm}
+	d_t = {d_3}_t = \siunit{\karimaDt}{\mm}
 \end{equation}
 
 \begin{align}
@@ -30,11 +30,11 @@ A vakkarimára ható erő a súlypontba lett felvéve ($y_k, y_d$).
 
 \begin{center}
 	\begin{tabular}{l}
-		$d_t$: tőmítés középátmérő \siunit{}{\mm} \\
-		$d_1$: cső csatlakozás külső \siunit{}{\mm} \\
+		$d_t$: tőmítés középátmérője \siunit{}{\mm} \\
+		$d_1$: cső csatlakozás külső mérete \siunit{}{\mm} \\
 		$s$: falvastagság \siunit{}{\mm} \\
-		$d_4$: tömítő felület külső átmérő \siunit{}{\mm} \\
-		$k$: csavar lyukkör \siunit{}{\mm} \\
+		$d_4$: tömítő felület külső átmérője \siunit{}{\mm} \\
+		$k$: csavar lyukköre \siunit{}{\mm} \\
 		$y_k, y_d$: súlypont távolsága a vakkarima kör középpontjától \siunit{}{\mm} \\
 		$b_\text{min}$: karima minimális vastagsága \siunit{}{\mm} \\
 		$p_\text{ü}$: belső üzemi nyomás \siunit{}{\mm} \\
@@ -44,7 +44,7 @@ A vakkarimára ható erő a súlypontba lett felvéve ($y_k, y_d$).
 
 \newpage
 \subsection{Szabvány -és anyagválasztás}
-A \siunit{\pu}{\bar} üzemi nyomás miatt a \karimaszabvany szabványt lett használva a karimához. A vakkarimához ugyanezen okból a \vakkarimaszabvany szabvány lett választva. Munkaléces\footnote{A feladathoz mellékelt segédletből ötletet merítve. (6. oldal)} felületek kellenek, hogy ne az egész sík felületet kelljen megmunkálni a tömítésnek. Anyagnak S235\footnote{Mellékelt Anyagok táblázatból választva.} acél megfelel. ($\sigma_\text{hajl} = \mpa{290}$)
+A \siunit{\pu}{\bar} üzemi nyomás miatt a \karimaszabvany szabványt használtam a karimához. A vakkarimához ugyanezen okból a \vakkarimaszabvany szabványt választottam. Munkaléces\footnote{A feladathoz mellékelt segédletből ötletet merítve. (6. oldal)} felületek kellenek, hogy ne az egész sík felületet kelljen megmunkálni a tömítésnek. Anyagnak S235\footnote{Mellékelt Anyagok táblázatból választva.} acél megfelel. ($\sigma_\text{hajl} = \mpa{290}$)
 
 \begin{minipage}{.35\linewidth}
 	\begin{equation}
@@ -53,7 +53,7 @@ A \siunit{\pu}{\bar} üzemi nyomás miatt a \karimaszabvany szabványt lett hasz
 \end{minipage}
 \begin{minipage}{.6\linewidth}
 	\begin{tabular}{l}
-		$\sigma_\text{hajl}$: anyag hajlító feszültség \siunit{}{\mega\pascal} \\
+		$\sigma_\text{hajl}$: anyag hajlító feszültsége \siunit{}{\mega\pascal} \\
 		$n$: biztonsági tényező \siunit{}{-} \\
 	\end{tabular}
 \end{minipage}
@@ -76,11 +76,11 @@ A \siunit{\pu}{\bar} üzemi nyomás miatt a \karimaszabvany szabványt lett hasz
 \end{minipage}
 \begin{minipage}{.6\linewidth}
 	\begin{tabular}{l}
-		$D$: vakkarima külső átmérő \siunit{}{\mm} \\
+		$D$: vakkarima külső átmérője \siunit{}{\mm} \\
 		$f$: kiugrás \siunit{}{\mm} \\
-		$d_4$: tömítő felület külső átmérő \siunit{}{\mm} \\
-		$d_2$: csavar lyukkör \siunit{}{\mm} \\
-		$K$: csavarok középátmérő \siunit{}{\mm} \\
+		$d_4$: tömítő felület külső átmérője \siunit{}{\mm} \\
+		$d_2$: csavar lyukköre \siunit{}{\mm} \\
+		$K$: csavarok középátmérője \siunit{}{\mm} \\
 		$b$: vakkarima magassága \siunit{}{\mm} \\
 	\end{tabular}
 \end{minipage}
@@ -109,16 +109,16 @@ A \siunit{\pu}{\bar} üzemi nyomás miatt a \karimaszabvany szabványt lett hasz
 	\end{align*}
 \end{minipage}
 \begin{minipage}{.5\linewidth}
-	$D$: karima külső átmérő \siunit{}{\mm} \\
+	$D$: karima külső átmérője \siunit{}{\mm} \\
 	$f$: kiugrás \siunit{}{\mm} \\
-	$d_4$: tömítő felület külső átmérő \siunit{}{\mm} \\
-	$d_2$: csavar lyukkör \siunit{}{\mm} \\
+	$d_4$: tömítő felület külső átmérője \siunit{}{\mm} \\
+	$d_2$: csavar lyukköre \siunit{}{\mm} \\
 	$s$: falvastagság \siunit{}{\mm} \\
 	$N$: csavarok \siunit{}{db} \\
-	$K$: csavarok középátmérő \siunit{}{\mm} \\
-	$b$: csavarok alap \\és tömítési sík távolság \siunit{}{\mm} \\
+	$K$: csavarok középátmérője \siunit{}{\mm} \\
+	$b$: csavarok alap \\és tömítési sík távolsága \siunit{}{\mm} \\
 	$d_3$: kúp alsó átmérője \siunit{}{\mm} \\
-	$d_1$: cső csatlakozás külső \siunit{}{\mm} \\
-	$M$: csavar \siunit{}{\mm} \\
-	$h$: karima magasság \siunit{}{\mm}
+	$d_1$: cső csatlakozás külső mérete \siunit{}{\mm} \\
+	$M$: csavarmenet \\szabványos mérete \siunit{}{\mm} \\
+	$h$: karima magassága \siunit{}{\mm}
 \end{minipage}
