@@ -18,15 +18,20 @@ A vakkarima félkör felületére ható erőt a félkörfelület súlypontjában
 \begin{equation}
 	b_{\text{min}} 
 	= \frac{d_t}{2} \sqrt{\frac{3p_\text{ü}}{\sigma_{\text{hajl}}} \left(1-\frac{2}{3} \frac{d_t}{k}\right)} 
+	= \frac{\karimaDt}{2} \sqrt{\frac{3\cdot\pu}{\anyagsigmahajl} \left(1-\frac{2}{3} \cdot \frac{\karimaDt}{\karimaK}\right)} 
 	= \siunit{\karimabmin}{\mm}
 \end{equation}
 
-\begin{align}
-	&\sigma = 
-	\frac{d_{t}^2}{4} 
+\begin{equation}
+	\sigma 
+	= \frac{d_{t}^2}{4} 
 	\frac{3p_{\text{ü}}}{b_{\text{min}}^2}
-	\left(1-\frac{2}{3}\frac{d_t}{K}\right) = \mpa{\karimasigma} \\
-\end{align}
+	\left(1-\frac{2}{3}\frac{d_t}{K}\right) 
+	= \frac{\karimaDt^2}{4}\cdot
+	\frac{3\cdot\pi}{\karimabmin^2}
+	\left(1-\frac{2}{3}\cdot\frac{\karimaDt}{\karimaK}\right) 
+	= \mpa{\karimasigma}
+\end{equation}
 
 \begin{center}
 	\begin{tabular}{l}
@@ -46,14 +51,17 @@ A vakkarima félkör felületére ható erőt a félkörfelület súlypontjában
 \subsection{Szabvány -és anyagválasztás}
 A \siunit{\pu}{\bar} üzemi nyomás miatt a \karimaszabvany szabványt használtam a karimához. A vakkarimához ugyanezen okból a \vakkarimaszabvany szabványt választottam. Munkaléces\footnote{A feladathoz mellékelt segédletből ötletet merítve. (6. oldal)} felületek kellenek, hogy ne az egész sík felületet kelljen megmunkálni a tömítésnek. Anyagnak S235\footnote{Mellékelt segédletből választva. (5. oldal, 1. táblázat)} acél megfelel. ($\sigma_\text{hajl} = \mpa{\anyagsigmahajl}$)
 
-\begin{minipage}{.35\linewidth}
+\begin{minipage}{.55\linewidth}
 	\begin{equation}
-		n = \frac{\sigma_{\text{hajl}}}{\sigma} = \siunit{\kariman}{-}
+		n 
+		= \frac{\sigma_{\text{hajl}}}{\sigma}
+		= \frac{\anyagsigmahajl}{\karimasigma} 
+		= \siunit{\kariman}{-}
 	\end{equation}
 \end{minipage}
-\begin{minipage}{.6\linewidth}
+\begin{minipage}{.4\linewidth}
 	\begin{tabular}{l}
-		$\sigma_\text{hajl}$: anyag hajlító feszültsége \siunit{}{\mega\pascal} \\
+		$\sigma_\text{hajl}$: anyag \\ hajlító feszültsége \siunit{}{\mega\pascal} \\
 		$n$: biztonsági tényező \siunit{}{-} \\
 	\end{tabular}
 \end{minipage}
