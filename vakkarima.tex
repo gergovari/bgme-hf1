@@ -1,19 +1,27 @@
 \section{Vakkarima vastagsága és karima szabványok}
 
-\subsection[Igénybevétel]{Igénybevétel\protect\footnote{A feladathoz mellékelt segédletből származó számítások. (5. oldal)}}
+\subsection[Igénybevétel]{Igénybevétel\protect\footnote{A feladathoz mellékelt segédletből származó számítások és ábrák. (5. oldal, 5-6. ábra)}}
 
-Az igénybevétel egy $d_t$ átmérőjű körön átadódó egyenletesen eloszló terhelés és feltehető hogy a törés egy egyenes vonal mentén lesz: a kiszámolt $\sigma$ alapján lehet majd anyagot választani. 
+Az igénybevétel egy $d_t$ átmérőjű\footnote{Lásd 3.3 fejezet.} körön átadódó egyenletesen eloszló terhelés és feltehető hogy a törés egy egyenes vonal mentén lesz: a kiszámolt $\sigma$ alapján lehet majd anyagot választani. 
 
 A vakkarima félkör felületére ható erőt a félkörfelület súlypontjában összpontosítva vehetjük fel ($y_k, y_d$). A csavarok $k$ lyukkörén egyenletesen megoszló erő pedig a $k$ átmérőjének megfelelő félkörív súlypontjában összpontosítható. A felvett törési keresztmetszetre ez a két erő ad nyomatékot.
 
-\begin{equation}
-	d_t = {d_2}_t = \siunit{\karimaDt}{\mm}
-\end{equation}
-
-\begin{align}
-	&y_k = \frac{k}{\pi} \\
-	&y_d = \frac{2}{3} \frac{d_t}{\pi} \\
-\end{align}
+\begin{minipage}{.4\linewidth}
+	\begin{equation}
+		d_t = {d_2}_t = \siunit{\karimaDt}{\mm}
+	\end{equation}
+\end{minipage}
+\begin{minipage}{.4\linewidth}
+	\begin{align}
+		&y_k = \frac{k}{\pi} \\
+		&y_d = \frac{2}{3} \frac{d_t}{\pi}
+	\end{align}
+\end{minipage}
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[scale=.53]{./images/ykyd.png}
+	\caption{$y_k, y_d$ és az igénybevétel kapcsolata}
+\end{figure}
 
 \begin{equation}
 	b_{\text{min}} 
@@ -65,11 +73,12 @@ A \siunit{\pu}{\bar} üzemi nyomás miatt a \karimaszabvany szabványt használt
 		$n$: biztonsági tényező \siunit{}{-} \\
 	\end{tabular}
 \end{minipage}
+Tehát az anyag $\siunit{\kariman}{-}$ biztonsági tényezővel felel meg a várt terhelésnek.
 
 \subsection[Előtervek]{Előtervek\protect\footnote{Előtervek a \href{http://www.pipingpipeline.com/en-1092-1-type-11-wn-flgs.html}{\karimaszabvany} és a \href{https://www.heco.de/webservice/downloads/product-sheet/1467/en/heco-product-sheet-1467-Stainless-steel-blind-flanges-DIN-EN-more-pressure-ranges-PN-100.pdf}{\vakkarimaszabvany} szabványok alapján.}}
 \begin{figure}[hbt!]
 	\centering
-	\includegraphics[scale=.25]{./images/vakkarima.png}
+	\includegraphics[scale=.55]{./images/vakkarima.png}
 	\caption{Vakkarima előtervének rajza}
 \end{figure}
 \begin{minipage}{.3\linewidth}
@@ -96,7 +105,7 @@ A \siunit{\pu}{\bar} üzemi nyomás miatt a \karimaszabvany szabványt használt
 \newpage
 \begin{figure}[hbt!]
 	\centering
-	\includegraphics[scale=.61]{./images/karima.png}
+	\includegraphics[scale=.53]{./images/karima.png}
 	\caption{Karima előtervének rajza}
 \end{figure}
 
@@ -112,7 +121,7 @@ A \siunit{\pu}{\bar} üzemi nyomás miatt a \karimaszabvany szabványt használt
 		&b = \siunit{\karimab}{\mm} \\
 		&d_3 = \siunit{\karimadthree}{\mm} \\
 		&d_1 = \siunit{\karimadone}{\mm} \\
-		&M = \text{M24} \\
+		&d_\text{cs} = \text{M24} \\
 		&h = \siunit{\karimah}{\mm}
 	\end{align*}
 \end{minipage}
@@ -127,6 +136,6 @@ A \siunit{\pu}{\bar} üzemi nyomás miatt a \karimaszabvany szabványt használt
 	$b$: csavarok alap \\és tömítési sík távolsága \siunit{}{\mm} \\
 	$d_3$: kúp alsó átmérője \siunit{}{\mm} \\
 	$d_1$: cső csatlakozás külső mérete \siunit{}{\mm} \\
-	$M$: csavarmenet \\szabványos mérete \siunit{}{\mm} \\
+	$d_text{cs}$: csavarmenet \\szabványos mérete \siunit{}{\mm} \\
 	$h$: karima magassága \siunit{}{\mm}
 \end{minipage}
